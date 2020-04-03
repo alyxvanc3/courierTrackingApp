@@ -1,0 +1,18 @@
+2020-03-31 23:58:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE TABLE[*] IF EXISTS"; expected "identifier"; SQL statement:
+drop table table if exists [42001-200]
+2020-03-31 23:58:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE TABLE[*] (ID BIGINT NOT NULL, LATITUDE DECIMAL(19,2), LONGITUDE DECIMAL(19,2), TIME TIMESTAMP, TOTAL_DISTANCE DECIMAL(19,2), PRIMARY KEY (ID))"; expected "identifier"; SQL statement:
+create table table (id bigint not null, latitude decimal(19,2), longitude decimal(19,2), time timestamp, total_distance decimal(19,2), primary key (id)) [42001-200]
+2020-03-31 23:58:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COURIER" not found; SQL statement:
+INSERT INTO courier (id, name, latitude, longitude) VALUES (1, 'Ataşehir MMM Migros', 40.9923307, 29.1244229), (2, 'Novada MMM Migros', 40.986106, 29.1161293), (3, 'Beylikdüzü 5M Migros', 41.0066851, 28.6552262), (4, 'Ortaköy MMM Migros', 41.055783, 29.0210292), (5, 'Caddebostan MMM Migros', 40.9632463, 29.0630908) [42102-200]
+2020-04-01 00:03:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE TABLE[*] IF EXISTS"; expected "identifier"; SQL statement:
+drop table table if exists [42001-200]
+2020-04-01 00:03:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE TABLE[*] (ID BIGINT NOT NULL, LATITUDE DECIMAL(19,2), LONGITUDE DECIMAL(19,2), TIME TIMESTAMP, TOTAL_DISTANCE DECIMAL(19,2), PRIMARY KEY (ID))"; expected "identifier"; SQL statement:
+create table table (id bigint not null, latitude decimal(19,2), longitude decimal(19,2), time timestamp, total_distance decimal(19,2), primary key (id)) [42001-200]
+2020-04-01 00:03:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COURIER" not found; SQL statement:
+INSERT INTO courier (id, name, latitude, longitude) VALUES (1, 'Ataşehir MMM Migros', 40.9923307, 29.1244229), (2, 'Novada MMM Migros', 40.986106, 29.1161293), (3, 'Beylikdüzü 5M Migros', 41.0066851, 28.6552262), (4, 'Ortaköy MMM Migros', 41.055783, 29.0210292), (5, 'Caddebostan MMM Migros', 40.9632463, 29.0630908) [42102-200]
